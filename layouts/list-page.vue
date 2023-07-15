@@ -3,9 +3,10 @@
 </script>
 
 <template>
-  $END$
+  <div>
+    <aside></aside>
+
+    <main>
+    </main>
+  </div>
 </template>
-
-<style scoped>
-
-</style>

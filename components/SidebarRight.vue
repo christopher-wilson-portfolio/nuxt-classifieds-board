@@ -3,14 +3,14 @@
 </script>
 
 <template>
-  <aside>
+  <aside class="flex flex-col content-center flex-wrap">
     <section id="language">
       <select name="languages" id="select-language">
         <option value="en">English</option>
       </select>
     </section>
 
-    <section id="loctations">
+    <section id="locations">
       <header>nearby</header>
       <ul>
         <li>location a</li>
@@ -22,8 +22,10 @@
 
 <style scoped>
   aside {
-    background-color: rgb(244, 244, 244);
+    background-color: var(--color-white);
+    width: 114px;
   }
+
   ul {
     list-style-type: none;
   }
